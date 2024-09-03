@@ -1,4 +1,4 @@
-# homebrew-percona-toolkit-mysql-8
+# homebrew-percona-toolkit
 
 This is a typical [Homebrew](https://brew.sh/) tap for [Percona Toolkit](https://www.percona.com/percona-toolkit). You can use it to install `percona-toolkit` on MacOS and Linux using Homebrew.
 
@@ -9,8 +9,8 @@ This is a fork of the Homebrew [percona-toolkit] targeted for MySQL 8 support. N
 To install `percona-toolkit` with Homebrew, aka. `brew`, run the following commands:
 
 ```bash
-brew tap tcarrio/percona-toolkit-mysql-8
-brew install percona-toolkit-mysql-8
+brew tap tcarrio/percona-toolkit
+brew install tcarrio/percona-toolkit/percona-toolkit
 ```
 
 ## Upgrade
@@ -18,7 +18,7 @@ brew install percona-toolkit-mysql-8
 To upgrade, it is recommended that you run the `brew upgrade` command.
 
 ```bash
-brew upgrade percona-toolkit-mysql-8
+brew upgrade tcarrio/percona-toolkit/percona-toolkit
 ```
 
 ## Uninstall
@@ -26,8 +26,8 @@ brew upgrade percona-toolkit-mysql-8
 If you want to uninstall `percona-toolkit`, run the following commands:
 
 ```bash
-brew uninstall percona-toolkit-mysql-8
-brew untap tcarrio/percona-toolkit-mysql-8
+brew uninstall tcarrio/percona-toolkit/percona-toolkit
+brew untap tcarrio/percona-toolkit
 ```
 
 <!-- References -->
