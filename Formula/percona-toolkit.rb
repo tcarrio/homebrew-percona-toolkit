@@ -5,8 +5,8 @@ class PerconaToolkit < Formula
 
   desc "Command-line tools for MySQL, MariaDB and system tasks"
   homepage "https://www.percona.com/software/percona-toolkit/"
-  url "https://www.percona.com/downloads/percona-toolkit/3.5.5/source/tarball/percona-toolkit-3.5.5.tar.gz"
-  sha256 "629a3c619c9f81c8451689b7840e50d13c656073a239d1ef2e5bcc250a80f884"
+  url "https://www.percona.com/downloads/percona-toolkit/3.6.0/source/tarball/percona-toolkit-3.6.0.tar.gz"
+  sha256 "48c2a0f7cfc987e683f60e9c7a29b0ca189e2f4b503f6d01c5baca403c09eb8d"
   license any_of: ["GPL-2.0-only", "Artistic-1.0-Perl"]
   revision 1
   head "lp:percona-toolkit", using: :bzr
